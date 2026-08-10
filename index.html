@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WebDining | Universidad de La Sabana</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f7fa;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #0f3d2e;
+            color: white;
+            padding: 25px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 28px;
+        }
+
+        header span {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        .hero {
+            padding: 90px 8%;
+            background: white;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            color: #0f3d2e;
+        }
+
+        .hero p {
+            max-width: 700px;
+            margin: 0 auto 30px;
+            font-size: 19px;
+            color: #555;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 13px 25px;
+            background: #0f3d2e;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+
+        section {
+            padding: 60px 8%;
+        }
+
+        section h2 {
+            text-align: center;
+            margin-bottom: 35px;
+            color: #0f3d2e;
+        }
+
+        .problem {
+            max-width: 850px;
+            margin: auto;
+            text-align: center;
+            color: #555;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            border: 1px solid #ddd;
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+            color: #0f3d2e;
+        }
+
+        .users {
+            background: #eaf1ed;
+        }
+
+        .team {
+            max-width: 700px;
+            margin: auto;
+        }
+
+        .team p {
+            background: white;
+            margin-bottom: 10px;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        footer {
+            background: #0f3d2e;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>WebDining</h1>
+        <span>Universidad de La Sabana</span>
+    </header>
+
+    <section class="hero">
+
+        <h2>Skip the line. Order smarter.</h2>
+
+        <p>
+            WebDining is a web application designed to make food ordering
+            faster and easier for students, professors and staff at
+            Universidad de La Sabana.
+        </p>
+
+        <a href="#solution" class="button">
+            Discover WebDining
+        </a>
+
+    </section>
+
+    <section>
+
+        <h2>The Problem</h2>
+
+        <p class="problem">
+            During peak hours, university restaurants experience long
+            waiting lines. This can cause late arrivals to classes and
+            meetings, overcrowded hallways, slower service and inefficient
+            restaurant workflows.
+        </p>
+
+    </section>
+
+    <section id="solution">
+
+        <h2>Our Solution</h2>
+
+        <div class="features">
+
+            <div class="card">
+                <h3>Digital Menu</h3>
+                <p>
+                    Browse restaurant menus and choose meals directly
+                    from your device.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Digital Payment</h3>
+                <p>
+                    Pay digitally without having to wait in line to
+                    place your order.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Order Tracking</h3>
+                <p>
+                    Follow your order status from reception to pickup.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>QR Pickup</h3>
+                <p>
+                    Receive a QR code and use it to verify your order
+                    when it is ready.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="users">
+
+        <h2>Target Users</h2>
+
+        <div class="features">
+
+            <div class="card">
+                <h3>Students</h3>
+                <p>
+                    Order food quickly without missing classes or
+                    wasting time in lines.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>University Staff & Professors</h3>
+                <p>
+                    Order meals efficiently during busy university hours.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Restaurant Staff</h3>
+                <p>
+                    Manage incoming orders and update their status.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Administrators</h3>
+                <p>
+                    Manage menus, prices, descriptions and availability.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section>
+
+        <h2>Our Team</h2>
+
+        <div class="team">
+
+            <p>
+                <strong>Jeronimo Quintero</strong>
+                — Project Leader / Documentation
+            </p>
+
+            <p>
+                <strong>Laura Sofia Parra</strong>
+                — UI/UX Designer
+            </p>
+
+            <p>
+                <strong>Juan Diego Vargas</strong>
+                — Frontend Developer
+            </p>
+
+            <p>
+                <strong>Juan Andres Beltran</strong>
+                — Backend Developer
+            </p>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <p>
+            WebDining — Universidad de La Sabana
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
