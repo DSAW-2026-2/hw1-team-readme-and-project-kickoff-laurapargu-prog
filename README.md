@@ -76,4 +76,6 @@ Target users for this web app include:
 - **Desarrollador Backend**; Juan Andres Beltran
 
 
----
+--- Name: Laura Sofia Parra Gutierrez 
+---Deployment: https://dsaw-2026-2.github.io/hw1-team-readme-and-project-kickoff-laurapargu-prog/
+
