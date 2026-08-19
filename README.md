@@ -1,51 +1,81 @@
-# HW01 — Team README & Project Kickoff
+# Unisabana WebDining - Project README
+#### Group members: Laura Sofia Parra, Juan Andres Beltrán, Juan Diego Vargas, Jeronimo Quintero Mejia.
 
-**Week 1 · DSAW · Universidad de La Sabana**
+---
 
-## Objective
+## Problem
 
-Form your team, choose the problem you will solve this semester, and argue why it deserves a web application.
+The University of La Sabana offers several on-campus restaurants and buffets serving hundreds of students, staff, and professors daily. Despite ample seating, long waiting lines during peak hours (12-2pm) remain a major issue, causing:
 
-## Deliverables
+- **Late arrivals** to afternoon classes and meetings
+- **Slow table turnover**, since diners wait longer for food while occupying seats
+- **Overcrowded walkways and hallways**, as lines spill outside designated areas, blocking movement and making the space feel disorganized
+- **Workflow bottlenecks**, where some stations sit idle while others are overwhelmed, leading to stress, rushing, and declining service quality over time
 
-Create the following files at the root of the repository:
+---
 
-### `README.md`
-Must include:
-- **Problem:** What problem are you solving? Be specific. Not "improve communication" but "Sabana students don't know when study rooms are available."
-- **Web app justification:** Why a web app and not a spreadsheet, a WhatsApp group, or an existing tool? Give at least 3 concrete reasons.
-- **Target users:** Who will use it? Be specific — not "anyone."
-- **User stories (minimum 3):** Format: `As a [user type], I want to [action] so that [benefit].`
-- **Team roles:** Who does what. Every team member must have a clear, named role.
+## Solution: Sabana Dining Web App (WebDining)
 
-### `index.html`
-A simple landing page (no CSS yet) that introduces the project. GitHub Pages will publish it automatically.
+A web app serving both clients and staff that eliminates the need of waiting 
+on line for paying:
 
-### `figma-link.txt`
-A text file containing the link to your Figma sketch (or a photo of a whiteboard). Any visual representation of how you imagine the app works.
+### Client side
+- Log in with University ID
+- Choose meals from a virtual menu
+- Pay via digital method (wallet, bank transfer, credit/debit card)
+- Receive a QR code and phone notification when the order is ready
+- Pick up the order by having the QR code scanned at the counter
 
-## Layer 2
+### Staff side
+- Admins manage the daily menu (add, edit, remove items, prices, photos, descriptions)
+- Staff receive notifications for new orders
+- Staff update order status (Received, In Process, Delivered)
+- App includes a Qr code scanning section to verify and close out orders at pickup
 
-The sketch must show at least one screen with annotations that explain what each element does.
+---
 
-## AI Log
+### Why not use other tools?
 
-Did you use AI to write the user stories or the problem statement? If so, include in the README:
-- The exact prompt you used
-- What changed from what the AI generated
-- Why you made those changes
+Web applications are compatibility wise, very good. Almost any device with a screen and wifi
+can run web applications, besides, features present on the app would be hard to implement on other
+systems, such as:
+- Modifiying item menus on an easy way
+- Choosing virtual payment methods 
+- Setting a status update on menu items for both clients and staff 
+- Qr code scanning 
+- Notification systems
+- Choosing menu options easily
 
-## Deployment
+---
 
-The repository must have GitHub Pages enabled. The URL must load correctly.
+### Target users:
 
-## Autograding
+Target users for this web app include:
 
-The pipeline will check:
-- ✅ Presence of `README.md`, `index.html`, `figma-link.txt`
-- ✅ `index.html` has content
-- ✅ `figma-link.txt` contains a URL
-- ✅ GitHub Pages URL responds with HTTP 200
-- ✅ README argues why a web app is the right solution (reviewed by Claude)
+- Students, univeristy staff members, and professors that need a quick and easy way to order food   
 
-> **Submission rule:** If it is not deployed and public, it cannot be graded.
+- Staff members that work at dining restaurants and buffets, (cashiers, cooks, etc.)   
+
+- Restaurant administrators who modify menu, prices, descriptions, etc.
+
+---
+
+### User stories:
+
+- As a **Client**, I want to be able to pay with my debit card on my phone so I dont need to wait in line to order food.
+- As a **Staff member**, I want to be able to be able to set status on orders so that I can have a better, more organized work flow
+- As an **Administrator** I want to be able to edit and update menu items, so that I can keep the dining service menu up to date
+
+---
+
+### Team Roles:
+
+- **Lider de proyecto / Documentacion**: Jeronimo Quintero
+- **Diseñador UI/UX**: Laura Parra 
+- **Desarrollador Frontend**: Juan Diego Vargas
+- **Desarrollador Backend**; Juan Andres Beltran
+
+
+--- Name: Laura Sofia Parra Gutierrez 
+---Deployment: https://dsaw-2026-2.github.io/hw1-team-readme-and-project-kickoff-laurapargu-prog/
+
